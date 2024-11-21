@@ -6,15 +6,15 @@ function Carousel({
   autoSlideInterval = 3000,
 }) {
   const [curr, setCurr] = useState(0);
-  const next = () => {
-    setCurr((curr) => (curr === images.length - 1 ? 0 : curr + 1));
-  };
 
   useEffect(() => {
     if (!autoSlide) return;
+    const next = () => {
+      setCurr((curr) => (curr === images.length - 1 ? 0 : curr + 1));
+    };
     const SlideInterval = setInterval(next, autoSlideInterval);
     return () => clearInterval(SlideInterval);
-  }, [autoSlide, autoSlideInterval, next]);
+  }, [autoSlide, autoSlideInterval]);
 
   return (
     <div className="overflow-hidden relative">
