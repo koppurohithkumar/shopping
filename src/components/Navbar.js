@@ -27,7 +27,7 @@ function Navbar() {
           <SearchBar handleSearch={handleSearch} />
         </section>
         <section className="w-36 md:w-44 flex items-center justify-around">
-          <NavLink to="/">
+          <NavLink to="/shopping">
             {({ isActive }) => (
               <img
                 className={
