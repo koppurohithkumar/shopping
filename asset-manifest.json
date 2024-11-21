@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shopping/static/css/main.c0de5c6a.css",
+    "main.js": "/shopping/static/js/main.2a9e5271.js",
+    "static/media/b4.jpg": "/shopping/static/media/b4.d4973636195481212099.jpg",
+    "static/media/f3.jpg": "/shopping/static/media/f3.eb20eb6eb91ed19c750f.jpg",
+    "static/media/f8.jpg": "/shopping/static/media/f8.10e64a15a32ecece26eb.jpg",
+    "static/media/f2.jpg": "/shopping/static/media/f2.3e6855c5a1ae0017d816.jpg",
+    "static/media/f6.jpg": "/shopping/static/media/f6.1432940ea16a00e9e206.jpg",
+    "static/media/f5.jpg": "/shopping/static/media/f5.9cf8c3ab6bcc5c041641.jpg",
+    "static/media/n2.jpg": "/shopping/static/media/n2.d90494fa65005021b5af.jpg",
+    "static/media/b1.jpg": "/shopping/static/media/b1.2f6d177f83c33b694c55.jpg",
+    "static/media/f1.jpg": "/shopping/static/media/f1.ee114738f4fe69e0c589.jpg",
+    "static/media/f4.jpg": "/shopping/static/media/f4.dd5e19a9210a840660b4.jpg",
+    "static/media/f7.jpg": "/shopping/static/media/f7.311bc1ccd2c4891c4c2a.jpg",
+    "static/media/n5.jpg": "/shopping/static/media/n5.87c91f17b073d1c1fc8f.jpg",
+    "static/media/b18.jpg": "/shopping/static/media/b18.e0d6bcaf42b430fde405.jpg",
+    "static/media/n6.jpg": "/shopping/static/media/n6.ab484b51eccbc7c349c5.jpg",
+    "static/media/n4.jpg": "/shopping/static/media/n4.ad076decd2c490767927.jpg",
+    "static/media/n7.jpg": "/shopping/static/media/n7.fab55c12b322de23f3ac.jpg",
+    "static/media/b16.jpg": "/shopping/static/media/b16.3e7af9ea14af02eaf597.jpg",
+    "static/media/b17.jpg": "/shopping/static/media/b17.2da9a940b676cf8eb0f5.jpg",
+    "static/media/n8.jpg": "/shopping/static/media/n8.265d49ee7175cb9e098c.jpg",
+    "static/media/b2.jpg": "/shopping/static/media/b2.143e491242b908d2e1fa.jpg",
+    "static/media/b7.jpg": "/shopping/static/media/b7.2af5c7833ccb4dec437f.jpg",
+    "static/media/n3.jpg": "/shopping/static/media/n3.184ff86db413842df535.jpg",
+    "static/media/n1.jpg": "/shopping/static/media/n1.d0fc999e5c31100e7a56.jpg",
+    "index.html": "/shopping/index.html",
+    "main.c0de5c6a.css.map": "/shopping/static/css/main.c0de5c6a.css.map",
+    "main.2a9e5271.js.map": "/shopping/static/js/main.2a9e5271.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0de5c6a.css",
+    "static/js/main.2a9e5271.js"
+  ]
+}
