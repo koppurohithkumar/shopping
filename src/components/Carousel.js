@@ -14,7 +14,7 @@ function Carousel({
     };
     const SlideInterval = setInterval(next, autoSlideInterval);
     return () => clearInterval(SlideInterval);
-  }, [autoSlide, autoSlideInterval]);
+  }, [autoSlide, autoSlideInterval, images.length]);
 
   return (
     <div className="overflow-hidden relative">
