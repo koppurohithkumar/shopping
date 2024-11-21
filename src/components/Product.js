@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 function Product({ product, doNavigate = true }) {
-  let { image, title, price, rating, raters } = product;
+  let { image, title, price, rating } = product;
   const brands = [
     "H&M",
     "US POLO ASSN",
@@ -23,7 +23,7 @@ function Product({ product, doNavigate = true }) {
       className="p-2 w-64 border-2 rounded-2xl m-auto"
     >
       <section className="mx-auto bg-gray-100 rounded-2xl">
-        <img className="p-2" src={image} />
+        <img className="p-2" src={image} alt="" />
       </section>
       <div className="mt-2 p-2">
         <section className="">

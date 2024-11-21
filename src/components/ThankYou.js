@@ -10,6 +10,7 @@ function ThankYou() {
           onClick={() => dispatch({ type: "clearCart" })}
           className="absolute w-5 h-5 bg-white rounded-md p-1 top-5 right-5 hover:scale-110 duration-500"
           src="https://img.icons8.com/?size=100&id=OZuepOQd0omj&format=png&color=000000"
+          alt=""
         />
         <h1 className="bg-gradient-to-r from-emerald-500 to-slate-500 bg-clip-text text-transparent font-heading text-2xl md:text-4xl text-center animate-pulse  ">
           Order Placed Successfully <br /> Thank you...

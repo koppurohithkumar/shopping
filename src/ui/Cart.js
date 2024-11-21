@@ -49,6 +49,7 @@ function Cart() {
                   <img
                     className="w-44 h-44 md:w-28 md:h-28"
                     src={product.image}
+                    alt=""
                   />
                   <p className="mx-auto text-sm">{product.title}</p>
                 </section>
@@ -102,6 +103,7 @@ function Cart() {
                   }}
                   className="absolute w-5 h-5 right-0 top-0 m-2 hover:animate-pulse hover:cursor-pointer"
                   src="https://img.icons8.com/?size=100&id=67884&format=png&color=000000"
+                  alt=""
                 />
               </div>
             ))}

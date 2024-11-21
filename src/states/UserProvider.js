@@ -1,4 +1,4 @@
-import React, { Children, useReducer } from "react";
+import React, { useReducer } from "react";
 import UserContext from "./UserContext";
 import UseProduct from "../hooks/UseProduct";
 
@@ -17,7 +17,7 @@ function UserProvider({ children }) {
         return { ...state };
       }
       case "unCart": {
-        const index = state.cart.findIndex((p) => p.id == action.payload);
+        const index = state.cart.findIndex((p) => p.id === action.payload);
         state.cart.splice(index, 1);
         useProduct.dispatch({
           type: "updateAddToCart",
@@ -41,18 +41,21 @@ function UserProvider({ children }) {
         return { ...state };
       }
       case "unWishlist": {
-        const index = state.wishlist.findIndex((p) => p.id == action.payload);
+        const index = state.wishlist.findIndex((p) => p.id === action.payload);
         state.wishlist.splice(index, 1);
         return { ...state };
       }
       case "productQuantity": {
         const productIndex = state.cart.findIndex(
-          (obj) => obj.id == action.payload.id
+          (obj) => obj.id === action.payload.id
         );
-        action.payload.type == "increment"
+        action.payload.type === "increment"
           ? state.cart[productIndex].quantity++
           : state.cart[productIndex].quantity--;
 
+        return { ...state };
+      }
+      default: {
         return { ...state };
       }
     }

@@ -24,6 +24,7 @@ function Home() {
             <img
               className="min-w-full h-96 object-cover object-top"
               src={img}
+              alt=""
             />
           ))}
         </Carousel>
@@ -45,7 +46,7 @@ function Home() {
             Explore More
           </button>
         </div>
-        <img src={b2} />
+        <img src={b2} alt="" />
       </section>
       <section className="p-20">
         <FeaturedProducts

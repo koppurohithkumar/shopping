@@ -13,12 +13,15 @@ function reducer(state, action) {
       return { ...state, products: action.payload };
     }
     case "updateAddToCart": {
-      const index = state.products.findIndex((p) => p.id == action.payload);
+      const index = state.products.findIndex((p) => p.id === action.payload);
       products[index].addToCart = false;
       return { ...state };
     }
     case "filteredProducts": {
       return { ...state, filteredProducts: action.payload };
+    }
+    default: {
+      return { ...state };
     }
   }
 }

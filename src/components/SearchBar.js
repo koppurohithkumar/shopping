@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function SearchBar({ handleSearch }) {
-  const [searchInput, setSearchInput] = useState();
   return (
     <div className="sm:w-[200px] lg:w-[400px]">
       <input

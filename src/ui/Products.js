@@ -1,4 +1,4 @@
-import { React, useCallback, useEffect, useState } from "react";
+import { React } from "react";
 import UseProduct from "../hooks/UseProduct.js";
 import Product from "../components/Product.js";
 
@@ -7,7 +7,7 @@ function Products() {
     state: { products, filteredProducts },
   } = UseProduct();
   const showProducts =
-    filteredProducts.length == 0 ? products : filteredProducts;
+    filteredProducts.length === 0 ? products : filteredProducts;
   return (
     <div className="container mx-auto p-5">
       <section className="pt-24 grid grid-cols-1 justify-center gap-8 md:grid-cols-3 lg:grid-cols-4">

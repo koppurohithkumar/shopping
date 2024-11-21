@@ -44,10 +44,15 @@ function ProductDetails() {
         onClick={() => navigate(-1)}
         className="absolute w-6 h-6 top-16 left-10 hover:scale-105"
         src="https://img.icons8.com/?size=100&id=81127&format=png&color=000000"
+        alt=""
       />
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 md:p-5">
         <section className="relative">
-          <img className="h-[250px] md:w-[400px] md:h-[400px]" src={image} />
+          <img
+            className="h-[250px] md:w-[400px] md:h-[400px]"
+            src={image}
+            alt=""
+          />
           <p
             onClick={handleWishList}
             className="absolute top-0 right-2 text-lg"

@@ -34,6 +34,7 @@ function Navbar() {
                   isActive ? "w-5 h-5 shadow-emerald-500 shadow-md " : "w-5 h-5"
                 }
                 src="https://img.icons8.com/?size=100&id=73&format=png&color=000000"
+                alt=""
               />
             )}
           </NavLink>
@@ -45,6 +46,7 @@ function Navbar() {
                   isActive ? "w-5 h-5 shadow-emerald-500 shadow-md " : "w-5 h-5"
                 }
                 src="https://img.icons8.com/?size=100&id=ef7HQj6w2rsQ&format=png&color=000000"
+                alt=""
               />
             )}
           </NavLink>
@@ -59,6 +61,7 @@ function Navbar() {
                       : "w-5 h-5"
                   }
                   src="https://img.icons8.com/?size=100&id=87&format=png&color=000000"
+                  alt=""
                 />
                 <p className="absolute -top-2 -left-2 w-4 h-4 rounded-full bg-red-600 text-center text-white text-[10px] font-bold">
                   {state.wishlist.length}
@@ -77,6 +80,7 @@ function Navbar() {
                       : "w-5 h-5"
                   }
                   src="https://img.icons8.com/?size=100&id=3686&format=png&color=000000"
+                  alt=""
                 />
                 <p className="absolute -top-2 -left-2 w-4 h-4 rounded-full bg-red-600 text-center text-white text-[10px] font-bold">
                   {state.cart.length}

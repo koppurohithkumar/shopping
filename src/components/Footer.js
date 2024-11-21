@@ -31,22 +31,27 @@ function Footer() {
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/?size=100&id=5MQ0gPAYYx7a&format=png&color=000000"
+              alt=""
             />
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/?size=100&id=yGcWL8copNNQ&format=png&color=000000"
+              alt=""
             />
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000"
+              alt=""
             />
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/?size=100&id=XErM9A1xNUK5&format=png&color=000000"
+              alt=""
             />
             <img
               className="w-5 h-5"
               src="https://img.icons8.com/?size=100&id=9a46bTk3awwI&format=png&color=000000"
+              alt=""
             />
           </div>
         </section>
@@ -76,10 +81,12 @@ function Footer() {
           <img
             className="w-20 h-20"
             src="https://img.icons8.com/?size=100&id=4PbFeZOKAc61&format=png&color=000000"
+            alt=""
           />
           <img
             className="w-20 h-20 p-2"
             src="https://img.icons8.com/?size=100&id=L1ws9zn2uD01&format=png&color=000000"
+            alt=""
           />
         </div>
       </section>
