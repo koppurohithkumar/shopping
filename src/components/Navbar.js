@@ -28,7 +28,7 @@ function Navbar() {
                 ? "https://img.icons8.com/?size=100&id=46&format=png&color=000000"
                 : "https://img.icons8.com/?size=100&id=YOrgWKvUdGE3&format=png&color=000000"
             }
-            alt=""
+            alt="hamburger"
           />
           {hamburger && (
             <section className="p-5 w-1/2 h-52 absolute left-0 top-12 text-center text-sm flex flex-col items-center gap-3 bg-white/75">
